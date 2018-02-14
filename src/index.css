@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+h2{
+  text-align: center;
+}
+.form-group{
+  width: auto;
+  margin: 30px auto !important;
+  display: inline !important;
+}
+
+.list-item{
+  display: flex;
+}
+.list-group-item{
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px 1px #ccc;
+}
+.form-control{
+  width: 40% !important;
+  float: left !important;
+}
+.btn-success{
+  margin: 0 auto;
+  display: inline !important;
+  width: 20% !important;
+}
+.btn-danger{
+  margin:0 auto;
+  display: block;
+}
+.reminder, .datefield{
+ width: 45%;
+ float: left;
+
+}
+.reminders-list{
+  margin:30px 0;
+}
+
+.delete-button{
+  float: right;
+  display: inline;
+}
